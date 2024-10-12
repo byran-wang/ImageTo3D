@@ -1,7 +1,7 @@
 <p align="center">
   <b>ROAS6000J Project: Image/Text to 3D generation.</b>
   <br/>
-  <img alt="preface" src="https://github.com/byran-wang/ImageTo3D/raw/main/assets/preface.gif" width="80%"/>
+  <img alt="preface" src="./assets/preface.gif" width="80%"/>
 </p>
 
 ## Contact
@@ -71,6 +71,13 @@ pip install -r requirements.txt
 - (Optional) `tiny-cuda-nn` installation might require downgrading pip to 23.0.1
 
 
-## Quickstart
+## Evaluation Dataset
+
+All the methods should be evaluated on the supplied dataset which locates in `./dataset`
+<p align="center">
+    <img src="./assets/dataset.png" alt="Image" width="80%"/>
+</p>
+
+
 
 
