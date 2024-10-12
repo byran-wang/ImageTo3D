@@ -1,10 +1,7 @@
-<p align="center"><b>
-
-ROAS6000J Project: Image/Text to 3D.
-<br/>
-
-<img alt="preface" src="https://github.com/byran-wang/ImageTo3D/blob/main/assets/preface.gif" width="60%">
-
+<p align="center">
+  <b>ROAS6000J Project: Image/Text to 3D.</b>
+  <br/>
+  <img alt="preface" src="https://github.com/byran-wang/ImageTo3D/raw/main/assets/preface.gif" width="60%"/>
 </p>
 
 <p align="center"><b>
