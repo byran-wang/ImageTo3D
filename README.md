@@ -1,9 +1,9 @@
 <p align="center"><b>
 
 ROAS6000J Project: Image/Text to 3D.
-</b></p>
+<br/>
 
-<img alt="threestudio" src="https://github.com/byran-wang/ImageTo3D/blob/main/assets/preface.gif" width="30%">
+<img alt="preface" src="https://github.com/byran-wang/ImageTo3D/blob/main/assets/preface.gif" width="60%">
 
 <img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/d746b874-d82f-4977-a549-98d9ba764dfc" width="30%">
 
