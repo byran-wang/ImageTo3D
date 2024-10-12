@@ -1,83 +1,37 @@
 <p align="center">
-  <b>ROAS6000J Project: Image/Text to 3D.</b>
+  <b>ROAS6000J Project: Image/Text to 3D generation.</b>
   <br/>
-  <img alt="preface" src="https://github.com/byran-wang/ImageTo3D/raw/main/assets/preface.gif" width="60%"/>
+  <img alt="preface" src="https://github.com/byran-wang/ImageTo3D/raw/main/assets/preface.gif" width="90%"/>
 </p>
 
-<p align="center"><b>
-👆 Results obtained from methods implemented by threestudio 👆 <br/>
-| <a href="https://ml.cs.tsinghua.edu.cn/prolificdreamer/">ProlificDreamer</a> | <a href="https://dreamfusion3d.github.io/">DreamFusion</a> | <a href="https://research.nvidia.com/labs/dir/magic3d/">Magic3D</a> | <a href="https://pals.ttic.edu/p/score-jacobian-chaining">SJC</a> | <a href="https://github.com/eladrich/latent-nerf">Latent-NeRF</a> | <a href="https://fantasia3d.github.io/">Fantasia3D</a> | <a href="https://fabi92.github.io/textmesh/">TextMesh</a> |
-<br/>
-| <a href="https://zero123.cs.columbia.edu/">Zero-1-to-3</a> | <a href="https://guochengqian.github.io/project/magic123/">Magic123</a> | <a href="https://github.com/JunzheJosephZhu/HiFA">HiFA</a> |
-<br />
-| <a href="https://instruct-nerf2nerf.github.io/">InstructNeRF2NeRF</a> | <a href="https://control4darxiv.github.io/">Control4D</a> |
-</b>
+## Contact
+- TA: swang457@connect.hkust-gz.edu.cn
 
-<p align="center">
-  <a href="https://colab.research.google.com/github/threestudio-project/threestudio/blob/main/threestudio.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg">
-  </a>
-  <a href="https://huggingface.co/spaces/bennyguo/threestudio"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Gradio%20Demo-Huggingface-orange"></a>
-  <a href="http://t23-g-01.threestudio.ai"><img src="https://img.shields.io/badge/Gradio%20Demo-Tencent-blue?logo=tencentqq&logoColor=white"></a>
-  <a href="https://discord.gg/ejer2MAB8N"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white"></a>
-</p>
 
-<p align="center">
-    Did not find what you want? Checkout <a href="https://threestudio-project.github.io/threestudio-extensions/"><b>threestudio-extension</b></a> or submit a feature request <a href="https://github.com/threestudio-project/threestudio/discussions/46">here</a>!
-</p>
+## Codebase includes:
+- The basic pipleline of Image/Text to 3D generation for objects without core implementation of diffusion model.
+- Evaluation dataset.
+- Dataset reading code.
+- Evaluation code for 3D generation model.
 
-<p align="center">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/ac6089a7-d88f-414c-96d6-a5e75616115a" width="68%">
-</p>
-<p align="center">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/302a399e-d36f-453e-a595-1c7d120451d3" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/025e6980-baf2-4b5f-9c23-4f66ef847bf5" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/cfcd828f-daed-4d2e-abf1-29f69eb2ffbb" width="18%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/f04b6bdd-ef02-4ce7-b7c9-981f8bda419f" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/13ae104e-e020-4de9-a677-87f29067a1c0" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/c6337097-b5bd-4fe8-a03a-a68fb9260009" width="18%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/e41532fd-8f00-45b4-a473-26a9f1bca4f8" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/7b1b919d-d97a-4f50-afa3-6c1b7ecfe7b6" width="35%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/8892898f-8bd8-43dc-a4ec-dd8d078af860" width="45%">
-</p>
-<p align="center"><b>
-| <a href="https://github.com/HeliosZhao/Animate124/tree/threestudio">Animate-124</a> | <a href="https://github.com/DSaurus/threestudio-4dfy">4D-fy</a> | <a href="https://github.com/baaivision/GeoDream/tree/threestudio">GeoDream</a> | <a href="https://github.com/DSaurus/threestudio-dreamcraft3D">DreamCraft3D</a> | <a href="https://github.com/huanngzh/threestudio-dreamwaltz">Dreamwaltz</a> | <a href="https://github.com/KU-CVLAB/3DFuse-threestudio">3DFuse</a> | <a href="https://github.com/cxh0519/Progressive3D">Progressive3D</a> |  <a href="https://github.com/cxh0519/threestudio-gaussiandreamer">GaussianDreamer</a> |  <a href="https://github.com/DSaurus/threestudio-3dgs">Gaussian Splatting</a> | <a href="https://github.com/DSaurus/threestudio-mvdream">MVDream</a> | <a href="https://github.com/DSaurus/threestudio-meshfitting">Mesh-Fitting</a> |
-</b>
+## Basic Requirement
+- Complete **core implementation** of diffusion model.
+- Compare the performance of different methods on the same evaluation dataset, which should include:
+  - **At least three open-source methods**, such as [Zero123](https://github.com/cvlab-columbia/zero123), [Wonder3D](https://github.com/xxlong0/Wonder3D), [CraftsMan](https://github.com/wyysf-98/CraftsMan), and others.
+  - **At least two closed-source methods**, such as [CLAY](https://github.com/CLAY-3D/OpenCLAY), [Tripo3D](https://www.tripo3d.ai/), [One2345plus](https://sudo-ai-3d.github.io/One2345plus_page/) , and others available on Hugging Face or their official websites.
+- For open-source methods, **adjust various hyperparameters**—such as text prompts, classification guidance scales, elevation angles, and physical properties—to compare generation results and summarize evaluation outcomes.
 
 ## News
-- 12/03/2024: Thank [Matthew Kwak](https://github.com/mskwak01) and [Inès Hyeonsu Kim](https://github.com/Ines-Hyeonsu-Kim) for implementation of [3DFuse](https://github.com/KU-CVLAB/3DFuse-threestudio)! Follow the instructions on its website to give it a try.
-- 08/03/2024: Thank [Xinhua Cheng](https://github.com/cxh0519/) for implementation of [GaussianDreamer](https://github.com/cxh0519/threestudio-gaussiandreamer)! Follow the instructions on its website to give it a try.
-- 01/03/2024: Thank [Xinhua Cheng](https://github.com/cxh0519/) for implementation of [Progressive3D](https://github.com/cxh0519/Progressive3D)! Follow the instructions on its website to give it a try.
-- 09/01/2024: Thank [Zehuan Huang](https://github.com/huanngzh) for implementation of 3D human avatar generation [Dreamwaltz](https://github.com/huanngzh/threestudio-dreamwaltz)! Follow the instructions on its website to give it a try.
-- 06/01/2024: Thank [Baorui Ma](https://github.com/mabaorui) for implementation of [GeoGream extensions](https://github.com/baaivision/GeoDream/tree/threestudio)! Follow the instructions on its website to give it a try.
-- 05/01/2024: Implemented HiFA. Follow the instructions [here](https://github.com/threestudio-project/threestudio#hifa-) to try all three variants.
-- 23/12/2023: Thank [Yuyang Zhao](https://github.com/HeliosZhao) for implementation of image-to-4D generation extensions [Animate-124](https://github.com/HeliosZhao/Animate124/tree/threestudio)! Follow the instructions on the extensions website to give it a try.
-- 18/12/2023: Implementation of [4D-fy](https://github.com/DSaurus/threestudio-4dfy) for 4D generation and [DreamCraft3D](https://github.com/DSaurus/threestudio-dreamcraft3D) for high-quality image-to-3D generation as the custom extensions! Follow the instructions on the extensions website to give it a try.
-- 13/12/2023: Implementation supporting [Stable Zero123](https://stability.ai/news/stable-zero123-3d-generation) for 3D generation from a single image! Follow the instructions [here](https://github.com/threestudio-project/threestudio#stable-zero123) to give it a try.
-- 30/11/2023: Implementation of [MVDream](https://github.com/DSaurus/threestudio-mvdream), [Gaussian Splatting](https://github.com/DSaurus/threestudio-3dgs) as the custom extensions. You can also use neural representation to fit a mesh by [Mesh-Fitting](https://github.com/DSaurus/threestudio-meshfitting).
-- 30/11/2023: Implementation of [custom extension system](https://threestudio-project.github.io/threestudio-extensions/) and you can add your extensions in [this project](https://github.com/threestudio-project/threestudio-extensions).
-- 25/06/2023: Implementation of [Magic123](https://guochengqian.github.io/project/magic123/)! Follow the instructions [here](https://github.com/threestudio-project/threestudio#magic123-) to give it a try.
-- 06/07/2023: Join our [Discord server](https://discord.gg/ejer2MAB8N) for lively discussions!
-- 03/07/2023: Try text-to-3D online in [HuggingFace Spaces](https://huggingface.co/spaces/bennyguo/threestudio) or using our [self-hosted service](http://t23-g-01.threestudio.ai) (GPU support from Tencent). To host the web interface locally, see [here](https://github.com/threestudio-project/threestudio#gradio-web-interface).
-- 20/06/2023: Implementations of Instruct-NeRF2NeRF and Control4D for high-fidelity 3D editing! Follow the instructions for [Control4D](https://github.com/threestudio-project/threestudio#control4d-) and [Instruct-NeRF2NeRF](https://github.com/threestudio-project/threestudio#instructnerf2nerf-) to give it a try.
-- 14/06/2023: Implementation of TextMesh! Follow the instructions [here](https://github.com/threestudio-project/threestudio#textmesh-) to give it a try.
-- 14/06/2023: Implementation of [prompt debiasing](https://arxiv.org/abs/2303.15413) and [Perp-Neg](https://perp-neg.github.io/)! Follow the instructions [here](https://github.com/threestudio-project/threestudio#tips-on-improving-quality) to give it a try.
-- 29/05/2023: An experimental implementation of using [Zero-1-to-3](https://zero123.cs.columbia.edu/) for 3D generation from a single image! Follow the instructions [here](https://github.com/threestudio-project/threestudio#zero-1-to-3-) to give it a try.
-- 26/05/2023: Implementation of [ProlificDreamer](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)! Follow the instructions [here](https://github.com/threestudio-project/threestudio#prolificdreamer-) to give it a try.
-- 14/05/2023: You can experiment with the SDS loss on 2D images using our [2dplayground](2dplayground.ipynb).
-- 13/05/2023: You can now try threestudio on [Google Colab](https://colab.research.google.com/github/threestudio-project/threestudio/blob/main/threestudio.ipynb)!
-- 11/05/2023: We now support exporting textured meshes! See [here](https://github.com/threestudio-project/threestudio#export-meshes) for instructions.
+- 12/Oct/2024: First version.
 
-![export-blender](https://github.com/threestudio-project/threestudio/assets/19284678/ccae2820-e702-484c-a43f-81678a365427)
 
 ## Installation
 
-See [installation.md](docs/installation.md) for additional information, including installation via Docker.
 
 The following steps have been tested on Ubuntu20.04.
 
-- You must have an NVIDIA graphics card with at least 6GB VRAM and have [CUDA](https://developer.nvidia.com/cuda-downloads) installed.
-- Install `Python >= 3.8`.
+- You must have an NVIDIA graphics card with at least 24GB VRAM and have [CUDA](https://developer.nvidia.com/cuda-downloads) installed.
+- Install `Python >= 3.9`.
 - (Optional, Recommended) Create a virtual environment:
 
 ```sh
@@ -89,13 +43,11 @@ python3 -m virtualenv venv
 python3 -m pip install --upgrade pip
 ```
 
-- Install `PyTorch >= 1.12`. We have tested on `torch1.12.1+cu113` and `torch2.0.0+cu118`, but other versions should also work fine.
+- Install `PyTorch`. We have tested on `torch2.0.1+cu118`, but other versions should also work fine.
 
 ```sh
-# torch1.12.1+cu113
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
-# or torch2.0.0+cu118
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# or torch2.0.1+cu118
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 - (Optional, Recommended) Install ninja to speed up the compilation of CUDA extensions:
@@ -112,9 +64,6 @@ pip install -r requirements.txt
 
 - (Optional) `tiny-cuda-nn` installation might require downgrading pip to 23.0.1
 
-- (Optional, Recommended) The best-performing models in threestudio use the newly-released T2I model [DeepFloyd IF](https://github.com/deep-floyd/IF), which currently requires signing a license agreement. If you would like to use these models, you need to [accept the license on the model card of DeepFloyd IF](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0), and login into the Hugging Face hub in the terminal by `huggingface-cli login`.
-
-- For contributors, see [here](https://github.com/threestudio-project/threestudio#contributing-to-threestudio).
 
 ## Quickstart
 
