@@ -5,17 +5,6 @@ ROAS6000J Project: Image/Text to 3D.
 
 <img alt="preface" src="https://github.com/byran-wang/ImageTo3D/blob/main/assets/preface.gif" width="60%">
 
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/d746b874-d82f-4977-a549-98d9ba764dfc" width="30%">
-
-<br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/437b4044-142c-4e5d-a406-4d9bad0205e1" width="60%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/812741c0-7229-412e-b6ab-81e377890f04" width="30%">
-
-<br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/4f4d62c5-2304-4e20-b632-afe6d144a203" width="68%">
-<br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/2f36ddbd-e3cf-4431-b269-47a9cb3d6e6e" width="68%">
-<br/>
 </p>
 
 <p align="center"><b>
