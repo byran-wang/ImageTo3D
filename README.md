@@ -3,7 +3,8 @@
 ROAS6000J Project: Image/Text to 3D.
 </b></p>
 
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/1dbdebab-43d5-4830-872c-66b38d9fda92" width="60%">
+[Watch the Video](https://github.com/byran-wang/ImageTo3D/blob/main/assets/preface.mp4)
+
 <img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/d746b874-d82f-4977-a549-98d9ba764dfc" width="30%">
 
 <br/>
