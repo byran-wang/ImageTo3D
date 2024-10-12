@@ -1,18 +1,8 @@
-<p align="center">
-    <picture>
-    <img alt="threestudio" src="https://user-images.githubusercontent.com/19284678/236847132-219999d0-4ffa-4240-a262-c2c025d15d9e.png" width="50%">
-    </picture>
-</p>
-
 <p align="center"><b>
-threestudio is a unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.
+
+ROAS6000J Project: Image/Text to 3D.
 </b></p>
 
-<p align="center">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/f48eca9f-45a7-4092-a519-6bb99f4939e4.gif" width="100%">
-<br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/01a00207-3240-4a8e-aa6f-d48436370fe7.png" width="100%">
-<br/>
 <img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/1dbdebab-43d5-4830-872c-66b38d9fda92" width="60%">
 <img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/d746b874-d82f-4977-a549-98d9ba764dfc" width="30%">
 
